@@ -99,10 +99,10 @@ const unzip = arr => {
 const shiftRight = (str, num) => {
   // TODO - write a function which shifts a string `num` characters to the right
   // Example = shiftRight("Hello", 3) === "lloHe"
-  arr = str.split("");
+  let arr = str.split(" ");
   for(let i = 0; i < num; i++)
   {
-    
+
   }
   
 };
