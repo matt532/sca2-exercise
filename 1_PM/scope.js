@@ -8,15 +8,15 @@
 // Part 3:
 // - modify so that it prints 1, 2, 2 in that order. Console.logs must stay in place.
 
-function x() {
+const x = a => {
   var a;
   console.log(a);
 }
 
-function y() {
+const y = () => {
   var a = 2;
   console.log(a);
-  x();
+  x(a);
 }
 
 var a = 1;
